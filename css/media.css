@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px) {
+  .header__search {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__search {
+    width: 80%;
+  }
+
+  .main__container {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 8px 0;
+  }
+
+  .header__container {
+    justify-content: center;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__logo {
+    flex-basis: 24px;
+    height: 24px;
+    margin-right: 0;
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .modal__content {
+    max-width: 300px;
+  }
+
+  .modal__title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .modal__input-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .modal__close {
+    right: 10px;
+    top: 10px;
+  }
+
+  .modal__contacts_active {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .main__container {
+    padding-left: 0;
+  }
+
+  .main__title {
+    font-size: 18px;
+  }
+
+}
